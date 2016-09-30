@@ -1,0 +1,279 @@
+body {
+  background: #e0e5e9;
+  font-family: 'Open Sans', sans-serif;
+  color: #4b5c66;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+h2 {
+  font-size: 42px;
+}
+h4 {
+  font-size: 20px;
+}
+.arrow-dropdown {
+  background: url('assets/icons/arrow-dropdown-down.png');
+}
+.dropdown-menu {
+  min-width: 50px;
+  text-align: center;
+}
+#wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+#wrapper .sideTitleWidth {
+  width: 442px;
+}
+#wrapper .moreDetails {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background: white;
+  margin: 0 auto;
+  cursor: pointer;
+}
+#wrapper .moreDetails .arrow-down {
+  margin-left: 37%;
+  margin-top: 30%;
+  margin-bottom: 10%;
+}
+#wrapper .moreDetails .details {
+  text-align: center;
+}
+#wrapper .priceQuantityWrapper {
+  margin-top: 30px;
+  width: 315px;
+  height: 125px;
+}
+#wrapper .priceQuantityWrapper .price {
+  font-size: 42px;
+  float: left;
+}
+#wrapper .priceQuantityWrapper .quantity,
+#wrapper .priceQuantityWrapper .addToCart {
+  width: 80px;
+  background: white;
+  font-size: 25px;
+  float: right;
+  position: relative;
+  top: 6px;
+}
+#wrapper .priceQuantityWrapper .addToCart {
+  width: 100%;
+  float: left;
+}
+#wrapper .reviewWrapper {
+  margin-top: 60px;
+  font-size: 20px;
+}
+#wrapper .protectionPlanWrapper {
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  font-size: 16px;
+}
+#wrapper .protectionPlanWrapper .header {
+  font-weight: bold;
+}
+#wrapper .protectionPlanWrapper .yearPrice {
+  color: #3999f4;
+  margin-left: 50px;
+}
+#wrapper .features .topFeatures {
+  background: #ea167a;
+  height: 400px;
+  position: relative;
+}
+#wrapper .features .topFeatures .content {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  float: left;
+  font-size: 65px;
+  color: white;
+}
+#wrapper .features .video1 {
+  float: right;
+}
+#wrapper .features .video1 .videoOverlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+#wrapper .features .video2 {
+  float: left;
+  clear: both;
+}
+#wrapper .features .featuresHighlights {
+  background: white;
+  height: 450px;
+  margin-top: 120px;
+}
+#wrapper .features .featuresHighlights .featureSection {
+  margin-top: 30px;
+}
+#wrapper .features .featuresHighlights .featureSection .description {
+  font-size: 16px;
+  line-height: 25px;
+}
+#wrapper .specificationsHeader .moreDetailsWrapper {
+  height: 324px;
+}
+#wrapper .specificationsHeader .moreDetailsWrapper .moreDetails {
+  top: 38%;
+  position: relative;
+}
+#wrapper .specificationsHeader .detailedSpecsWrapper {
+  height: 326px;
+}
+#wrapper .specificationsHeader .detailedSpecs {
+  background: #ffd200;
+  height: 450px;
+  position: relative;
+  top: -125px;
+}
+#wrapper .specificationsHeader .detailedSpecs .content {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  float: left;
+  font-size: 65px;
+  color: white;
+}
+#wrapper .specificationsHeader .detailedSpecs .sideImg {
+  position: absolute;
+  left: 40px;
+  bottom: 225px;
+}
+#wrapper .specifications {
+  height: 540px;
+  background: white;
+  margin-right: 0px;
+}
+#wrapper .specifications .specsSection {
+  letter-spacing: 1px;
+}
+#wrapper .specifications .specsSection .specsTitle {
+  font-size: 25px;
+  margin-top: 20px;
+}
+#wrapper .specifications .specsSection .specsDesc {
+  font-size: 16px;
+  margin-top: 30px;
+}
+#wrapper .specifications .seeMoreSpecs {
+  background: #ffd200;
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  margin-top: 45px;
+}
+#wrapper .reviewsHeader .topReviews {
+  background: #6fce3c;
+  height: 400px;
+  position: relative;
+  margin-left: -15px;
+}
+#wrapper .reviewsHeader .topReviews .content {
+  position: absolute;
+  bottom: 0px;
+  left: 30px;
+  float: left;
+  font-size: 65px;
+  color: white;
+}
+#wrapper .reviewsHeader .moreDetails {
+  margin-top: 165px;
+}
+#wrapper .reviews .overallScore {
+  font-size: 25px;
+}
+#wrapper .reviews .overallScore .bigScore {
+  font-size: 120px;
+  font-weight: 900;
+}
+#wrapper .reviews .overallScore .writeReview {
+  background: #6fce3c;
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  vertical-align: middle;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+#wrapper .reviews .userReviewWrapper {
+  background: white;
+  padding: 15px;
+}
+#wrapper .reviews .userReviewWrapper .reviewTitle {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+#wrapper .reviews .userReviewWrapper .reviewedBy {
+  margin-bottom: 15px;
+}
+#wrapper .reviews .userReviewWrapper .review {
+  margin-bottom: 20px;
+}
+#wrapper .reviews .userReviewWrapper .ratings {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+#wrapper .reviews .userReviewWrapper .ratings .userRatings .green {
+  background-image: url('../assets/icons/review-green.jpg');
+  width: 43px;
+  height: 4px;
+  float: left;
+  margin-left: 5px;
+}
+#wrapper .reviews .userReviewWrapper .ratings .userRatings .empty {
+  background-image: url('../assets/icons/review.jpg');
+  width: 43px;
+  height: 4px;
+  float: left;
+  margin-left: 5px;
+}
+.lazyload,
+.fade-right {
+  height: 300px;
+  border: 1px solid black;
+  width: 500px;
+  display: none;
+}
+.come-in {
+  left: -100px;
+  animation: slide 0.5s ease forwards;
+}
+.come-in:nth-child(odd) {
+  animation-duration: 0.6s;
+}
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+@keyframes slide {
+  100% {
+    left: 0;
+  }
+}
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
+}

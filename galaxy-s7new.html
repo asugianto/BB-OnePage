@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- JQuery LazyLoad -->
+    <script src="javascript/lib/visible-plugin.js"></script>
+    <script src="javascript/lib/jquery.lazy.min.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="javascript/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <title>Samsung Galaxy S7</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="lazy" data-src="assets/images/s7.png" />
+            </div>
+            <div class="col-md-6">
+                <h1 class="sideTitleWidth">Samsung</h1>
+                <h2>Galaxy S5</h2>
+                <div class="priceQuantityWrapper">
+                    <div class="price">
+                        $719.99
+                    </div>
+
+                    <div class="btn quantity dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        1
+                        <img src="assets/icons/arrow-dropdown-down.png"/>
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="selected">1</li>
+                        <li>2</li>
+                        <li>3</li>
+                        <li>4</li>
+                    </ul>
+
+                    <div class="addToCart">
+                        <div class="btn addToCart dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Add To Cart
+                            <img src="assets/icons/arrow-dropdown-down.png"/>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="reviewWrapper sideTitleWidth">
+                    <img class="lazy" data-src="assets/icons/stars.png"/>
+                    <div>Lorem ipsum dolor sit amet, consectetur adispicing elit. Sed eget dui enim. Nam eu feugiat Ex. Nullam sed placerat dui in tempus.</div>
+                </div>
+
+                <div class="protectionPlanWrapper sideTitleWidth">
+                    <span class="header">Add Product Protection Plan</span>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">2-Year Protection Plan* <span class="yearPrice">$105.00</span>
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" value="">1-Year Protection Plan* <span class="yearPrice">$60.00</span>
+                        </label>
+                    </div>
+                    *A $99 deductible applies to all claims.
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Highlights -->
+        <div class="row features">
+            <div class="col-md-4">
+                <div class="topFeatures">
+                    <div class="content">Top <strong>Features</strong></div>
+                </div>
+
+                <div class="video1">
+                    <img class="lazy" data-src="assets/images/video1.jpg"/>
+                </div>
+                <div class="video2">
+                    <img class="lazy" data-src="assets/images/video2.jpg"/>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="moreDetails">
+                    <img class="arrow-down" src="assets/icons/arrow-down.png"/>
+                    <div class="details">More Details</div>
+                </div>
+
+                <div id="featureHighlights" class="featuresHighlights">
+                    <div class="col-md-6">
+                        <div class="featureSection">
+                            <h4><strong>3G</strong></h4>
+                            <div class="description">
+                                3G, short form of third generation, is the third generation of mobile telecommunications
+                            </div>
+                        </div>
+                        <div class="featureSection">
+                            <h4><strong>6" Touchscreen</strong></h4>
+                            <div class="description">
+                                A touchscreen is an input device normally layered on the top of an electronic visual display
+                                of an information processing system. Use our Touchscreen Selector to sort, search and filter.
+                            </div>
+                        </div>
+                        <div class="featureSection">
+                            <h4><strong>Browse the Web</strong></h4>
+                            <div class="description">
+                                The address bar is your starting point for browsing the web, with a combined address bar
+                                and search box so you can surf, search, or get suggestions all from Google.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="featureSection">
+                            <h4><strong>Wi-Fi Capable</strong></h4>
+                            <div class="description">
+                                If it is compliant or partly compatible, the Wi-Fi Alliance may not object to its description
+                                as a Wi-Fi device though technically only certified devices are approved.
+                            </div>
+                        </div>
+                        <div class="featureSection">
+                            <h4><strong>Camera</strong></h4>
+                            <div class="description">
+                                A camera is an optical instrument that records images that can be stored directly,
+                                transmitted to another location, or both. These images may still be photographs.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detail Header Specifications -->
+        <div class="specificationsHeader row">
+            <div class="col-md-8">
+                <div class="moreDetailsWrapper">
+                    <div class="moreDetails">
+                        <img class="arrow-down" src="assets/icons/arrow-down.png"/>
+                        <div class="details"> More Details</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 detailedSpecsWrapper">
+                <div class="detailedSpecs">
+                    <img class="lazy sideImg" data-src="assets/images/s7-side.png"/>
+                    <div class="content">Detailed <strong>Specs</strong></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Detail Specifications -->
+        <div class="specifications row">
+            <div class="specificationWrapper">
+                <div class="col-md-8">
+                    <div class="col-md-6">
+                        <div class="specsSection">
+                            <div class="specsTitle"><strong>General</strong></div>
+                            <div class="specsDesc">
+                                <strong>4G Network</strong>
+                                <div>GSM 850 / 900 / 1800 / 1900 SIM</div>
+                            </div>
+
+                            <div class="specsDesc">
+                                <strong>3G Network</strong>
+                                <div>HDSPA 850 / 900 / 1900 / 2100</div>
+                            </div>
+
+                            <div class="specsDesc">
+                                <strong>SIM</strong>
+                                <div>Micro Sim</div>
+                            </div>
+                        </div>
+
+                        <div class="specsSection">
+                            <div class="specsTitle"><strong>Sound</strong></div>
+                            <div class="specsDesc">
+                                <strong>Alert Types</strong>
+                                <div>Vibration, MP3, Ringtones</div>
+                            </div>
+                        </div>
+
+                        <div class="seeMoreSpecs">
+                            See More Specs <span class="glyphicon glyphicon-chevron-right"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="specsSection">
+                            <div class="specsTitle"><strong>Display</strong></div>
+                            <div class="specsDesc">
+                                <strong>Type</strong>
+                                <div>Super AMOLED Capacitive Touchscreen</div>
+                            </div>
+
+                            <div class="specsDesc">
+                                <strong>Size</strong>
+                                <div>122 mm x 66 mm (3.24 x 3.24 inches)</div>
+                            </div>
+                        </div>
+
+                        <div class="specsSection">
+                            <div class="specsTitle"><strong>Body</strong></div>
+                            <div class="specsDesc">
+                                <strong>Dimensions</strong>
+                                <div>137 mm x 71mm (5.38 x 2.75 inches)</div>
+                            </div>
+
+                            <div class="specsDesc">
+                                <strong>Weight</strong>
+                                <div>220 grams (1.2LBs)</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="sideImage">
+                        <img class="lazy" data-src="assets/images/s7-two-side.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews -->
+        <div class="reviewsHeader row">
+            <div class="col-md-4">
+                <div class="topReviews">
+                    <div class="content">Read <strong>Reviews</strong></div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="moreDetails">
+                    <img class="arrow-down" src="assets/icons/arrow-down.png"/>
+                    <div class="details"> More Details</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="reviews row">
+            <div class="col-md-4">
+                <div class="overallScore">
+
+                    Overall Score
+                    <div class="bigScore">8/10</div>
+
+                    <div class="writeReview">
+                        Write A Review<span class="glyphicon glyphicon-chevron-right"></span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="userReviewWrapper">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="stars">
+                                <img class="lazy" data-src="assets/icons/stars.png"/>
+                            </div>
+                            <div class="reviewTitle">
+                                GREAT PHONE!!
+                            </div>
+                            <div class="reviewedBy">
+                                Adam Ginther on August 6
+                            </div>
+                            <div class="review">
+                                nothing come close to this baby. The S Pen gives you versatility.
+                                You don't think you'll use it as much at first.... But I have come to rely
+                                on it in situations that I need to be precise or jot down quick notes. I love how precise it is,
+                                to the point where my handwriting looks like my own. The camera is superb, Samsung really did good
+                                in adding the image stabilization on this phone.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ratings">
+                                Value
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="empty"></div>
+                                </div>
+                            </div>
+
+                            <div class="ratings">
+                                Price
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="empty"></div>
+                                </div>
+                            </div>
+
+                            <div class="ratings">
+                                Quality
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="stars">
+                                <img class="lazy" data-src="assets/icons/stars.png"/>
+                            </div>
+                            <div class="reviewTitle">
+                                The Best Android Phone Yet.
+                            </div>
+                            <div class="reviewedBy">
+                                Chris Saunder on August 2
+                            </div>
+                            <div class="review">
+                                I Moved up from a Samsung Galaxy S3, to the Samsung Note 4....Big Move....
+                                The Note 4 is more phone/camera than I expected...the (magic) pen is awesome.
+                                Good job Samsung...best among phablets available in the market now.....really awesome
+                                Absolutely, without a doubt, the best phone ever made by men. Samsung got it right this time.
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="ratings">
+                                Value
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="empty"></div>
+                                    <div class="empty"></div>
+                                    <div class="empty"></div>
+                                    <div class="empty"></div>
+                                </div>
+                            </div>
+
+                            <div class="ratings">
+                                Price
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="empty"></div>
+                                </div>
+                            </div>
+
+                            <div class="ratings">
+                                Quality
+                                <div class="userRatings">
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="green"></div>
+                                    <div class="empty"></div>
+                                    <div class="empty"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

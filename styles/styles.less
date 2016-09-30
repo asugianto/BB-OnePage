@@ -1,0 +1,355 @@
+@fontFamily: 'Open Sans', sans-serif;
+@bodyBackground: #e0e5e9;
+
+@fontSize: 16px;
+
+@primaryColor: #4b5c66;
+@topFeaturesColor: #ea167a;
+@detailedSpecsColor: #ffd200;
+@reviewsColor: #6fce3c;
+@whiteColor: white;
+
+body {
+    background: @bodyBackground;
+    font-family: @fontFamily;
+    color: @primaryColor;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.arrow-dropdown {
+    background: url('assets/icons/arrow-dropdown-down.png');
+}
+
+.dropdown-menu {
+    min-width:50px;
+    text-align:center;
+}
+#wrapper {
+    width: 75%;
+    margin: 0 auto;
+
+    .sideTitleWidth {
+        width: 442px;
+    }
+
+    .moreDetails {
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        border-radius: 50px;
+        width: 100px;
+        height: 100px;
+        background: @whiteColor;
+        margin: 0 auto;
+        cursor: pointer;
+
+        .arrow-down {
+            margin-left: 37%;
+            margin-top: 30%;
+            margin-bottom: 10%;
+        }
+
+        .details {
+            text-align: center;
+        }
+    }
+
+    .priceQuantityWrapper {
+        margin-top: 30px;
+        width: 315px;
+        height: 125px;
+
+        .price {
+            font-size: 42px;
+            float: left;
+        }
+        .quantity, .addToCart {
+            width: 80px;
+            background: @whiteColor;
+            font-size: 25px;
+            float: right;
+            position: relative;
+            top: 6px;
+        }
+
+        .addToCart {
+            width: 100%;
+            float: left;
+        }
+    }
+
+    .reviewWrapper {
+        margin-top: 60px;
+        font-size: 20px;
+    }
+
+    .protectionPlanWrapper {
+        margin-top: 40px;
+        background: @whiteColor;
+        padding: 20px;
+        font-size: 16px;
+
+        .header {
+            font-weight: bold;
+        }
+
+        .yearPrice {
+            color: #3999f4;
+            margin-left: 50px;
+        }
+    }
+
+    .features {
+        .topFeatures {
+            background: @topFeaturesColor;
+            height: 400px;
+            position: relative;
+
+            .content {
+                position: absolute;
+                bottom: 0px;
+                left: 30px;
+                float: left;
+                font-size: 65px;
+                color: @whiteColor;
+
+            }
+        }
+
+        .video1 {
+            float: right;
+
+            .videoOverlay {
+                background: rgba(0,0,0, 0.5);
+            }
+        }
+
+        .video2 {
+            float: left;
+            clear: both;
+        }
+
+        .featuresHighlights {
+            background: @whiteColor;
+            height: 450px;
+            margin-top: 120px;
+
+            .featureSection {
+                margin-top: 30px;
+
+                .description {
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+
+    .specificationsHeader {
+
+        .moreDetailsWrapper {
+            height: 324px;
+
+            .moreDetails {
+                top: 38%;
+                position: relative;
+            }
+        }
+
+        .detailedSpecsWrapper {
+            height: 326px;
+        }
+
+        .detailedSpecs {
+            background: @detailedSpecsColor;
+            height: 450px;
+            position: relative;
+            top: -125px;
+
+            .content {
+                position: absolute;
+                bottom: 0px;
+                left: 30px;
+                float: left;
+                font-size: 65px;
+                color: @whiteColor;
+
+            }
+
+            .sideImg {
+                position: absolute;
+                left: 40px;
+                bottom: 225px;
+            }
+        }
+    }
+
+    .specifications {
+        height: 540px;
+        background: @whiteColor;
+        margin-right: 0px;
+
+        .specsSection {
+            letter-spacing: 1px;
+
+            .specsTitle {
+                font-size: 25px;
+                margin-top: 20px;
+            }
+
+            .specsDesc {
+                font-size: 16px;
+                margin-top: 30px;
+            }
+        }
+
+        .seeMoreSpecs {
+            background: @detailedSpecsColor;
+            width: 190px;
+            height: 50px;
+            border-radius: 5px;
+            color: @whiteColor;
+            vertical-align: middle;
+            font-size: 18px;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            margin-top: 45px;
+
+        }
+    }
+
+    .reviewsHeader {
+        .topReviews {
+            background: @reviewsColor;
+            height: 400px;
+            position: relative;
+            margin-left: -15px;
+
+            .content {
+                position: absolute;
+                bottom: 0px;
+                left: 30px;
+                float: left;
+                font-size: 65px;
+                color: @whiteColor;
+
+            }
+        }
+
+        .moreDetails {
+            margin-top: 165px;
+        }
+    }
+
+    .reviews {
+
+        .overallScore {
+            font-size: 25px;
+
+            .bigScore {
+                font-size: 120px;
+                font-weight: 900;
+            }
+
+            .writeReview {
+                background: @reviewsColor;
+                width: 190px;
+                height: 50px;
+                border-radius: 5px;
+                color: @whiteColor;
+                vertical-align: middle;
+                font-size: 18px;
+                text-align: center;
+                line-height: 50px;
+                cursor: pointer;
+                margin-top: 30px;
+            }
+
+        }
+
+
+        .userReviewWrapper {
+            background: @whiteColor;
+            padding: 15px;
+
+            .reviewTitle {
+                font-size: 25px;
+                font-weight: bold;
+                margin-top: 5px;
+            }
+
+            .reviewedBy {
+                margin-bottom: 15px;
+            }
+
+            .review {
+                margin-bottom: 20px;
+            }
+
+            .ratings {
+                font-size: 20px;
+                font-weight: bold;
+                margin-bottom: 25px;
+
+                .userRatings {
+
+                    .green {
+                        background-image: url('../assets/icons/review-green.jpg');
+                        width: 43px;
+                        height: 4px;
+                        float: left;
+                        margin-left: 5px;
+                    }
+
+                    .empty {
+                        background-image: url('../assets/icons/review.jpg');
+                        width: 43px;
+                        height: 4px;
+                        float: left;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.lazyload, .fade-right {
+    height: 300px;
+    border: 1px solid black;
+    width: 500px;
+    display:none;
+}
+
+.come-in {
+    left: -100px;
+    animation: slide 0.5s ease forwards;
+}
+.come-in:nth-child(odd) {
+    animation-duration: 0.6s;
+}
+.already-visible {
+    transform: translateY(0);
+    animation: none;
+}
+
+@keyframes slide {
+    100% {left: 0;}
+}
+
+@keyframes come-in {
+    to { transform: translateY(0); }
+}
